@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Account-Service
+  
+server:
+  port: 5559
+  
+eureka:
+  client:
+    healthcheck:
+      enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:5555/eureka/
+      
